@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :tech, only: [:create]
+  resources :techs, only: [:create]
 end
