@@ -91,4 +91,14 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+config.before(:each) do
+  Mongoid.purge!
+end
+# config.after(:each) do
+#   MongoMapper.database.collections.each do |collection|
+#     unless collection.name.match(/^system\./)
+#       collection.remove
+#     end
+#   end
+# end
 end
