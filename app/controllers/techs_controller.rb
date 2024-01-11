@@ -1,5 +1,6 @@
 class TechsController < ApplicationController
   def create
+    # pry
     tech = Tech.create(tech_params)
     if tech.save
       render json: "Nailed it", status: :created
