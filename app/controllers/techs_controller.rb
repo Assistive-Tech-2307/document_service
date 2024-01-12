@@ -1,6 +1,12 @@
 class TechsController < ApplicationController
   def create
-    Tech.create(tech_params)
+    # pry
+    tech = Tech.create(tech_params)
+    if tech.save
+      render json: "Nailed it", status: :created
+    else
+      render json: "oops", status: 401
+    end
   end
 
   private
