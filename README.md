@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [About this Service](#about-this-service)
+- [Versions](#versions)
 - [Document Endpoint](#document-endpoint)
 - [Contributors](#contributors)
 
@@ -11,7 +12,7 @@
 This service allows an admin to add Assitive Technology to a MongoDB database. This service was mainly added to give us experience on Non-relation Databases and front-end experiences working with React.js.
 
 ## Versions
-ruby 3.2.2
+ruby 3.2.2 </br>
 mogoid 8.1.4
 
 ## Document Endpoint
@@ -43,4 +44,5 @@ data: {
 ## Contributors
 - Nick Spencer <a href="https://github.com/deadbert">@github.com/deadbert</a>
 - Joop Stark <a href="https://github.com/JoopStark">@github.com/JoopStart</a>
+- Milton <a href="https://github.com/Thats_my_Stapler">@That's_my_stapler</a>
 
